@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html e Css</title>
+    <link rel="stylesheet" href="Codigos/Telas-cdg.css">
+    <link rel="shortcut icon" href="Codigos/Image-HTML/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1 id="Titulo">Principais códigos de HTML e CSS: </h1>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>O que é HTML? </h2>
+                <p>&nbsp; HTML (Hypertext Markup Language) não é uma linguagem de programação e sim, como o nome diz, uma linguagem de marcação ou markup. Ela funciona através de “marcações” chamadas tags ou etiquetas, com o propósito de estruturar e definir a natureza do conteúdo de uma página.</p>
+                <h2>Primeiro passo para começar um código HTML:</h2>
+                <ul><li>Digite apenas "!" em seguida pressione Enter. O código é criado automaticamente e agora só é preciso de alguns ajustes.</li></ul>
+                <h2>Níveis de títulos: </h2>
+                <ul>
+                    <li>h1 + Enter: Nível 1;</li>  
+                    <li>h2 + Enter: Nível 2;</li>
+                    <li>h3 + Enter: Nível 3;</li>
+                    <li>h4 + Enter: Nível 3;</li>
+                    <li>h4 + Enter: Nível 4;</li>
+                    <li>h5 + Enter: Nível 5;</li>
+                    <li>h6 + Enter: Nível 6;</li>
+                </ul>
+                <h2>Formatação de texto: </h2>
+                <ul>
+                    <li>strong + Enter: Negrito;</li>
+                    <li>em + Enter: Itálico;</li>
+                    <li>u + Enter: Sublinhar texto;</li>
+                    <li>sub + Enter: Subscrito;</li>
+                    <li>sup + Enter: Sobrescrito;</li>
+                    <li>p + Enter: Colocar aspas;</li>
+                    <li>br + Enter: Quebra de linha;</li>
+                </ul>
+                <h2>Listas ordenadas e não ordenadas:</h2>
+                <ul>
+                    <li>ol + Enter: Para criação de listas ordenadas usamos a tag incial e para identificar cada item usamos a tag li + Enter. Tipos: 1; A; a; I; i. <br> Para Utilização dos tipos é necessário usar a tag type + Enter. </li>
+                    <li>ul + Enter: Para criação de listas não ordenadas usamos a tag incial e para identificar cada item usamos a tag li + Enter. Tipos: disc; circle; square.<br> Para Utilização dos tipos é necessário usar a tag type + Enter. </li>
+                </ul>
+                <h2>Carregar uma imagem HTML: </h2>
+                <ul><li><p>img + Enter: Em "src" por o local e nome da sua imagem. <br> Dica: Pressione Ctrl + Espaço e o vscode vai mostrar uma lista de todos os aquivos disponíveis.</p>
+                    <picture>
+                        <img class="formatimg" src="Codigos/Image-HTML/exemplosimagens.png" alt="Exemplo de imagem">
+                    </picture>
+                </li></ul>
+                <h2>Ancorar links: </h2>
+                <ul><li><p>a + Enter: O principal atributo dessa tag é o href, que cria uma referência hipertexto ou em uma imagem. Para poder controlar onde o site de destino vai abrir, podemos usar o atributo target + Enter, que suporta os seguintes valores mais utilizados: _blank(Em uma nova janela), _self(Mesma janela ou frame atual). Exemplo a seguir:</p>
+                    <picture>
+                        <img class="formatimg" src="Codigos/Image-HTML/Ancoragem.png" alt="Exemplo ancoragem">
+                        <p>Exemplo de ancoragem de um arquivo para download:</p> 
+                        <img class="formatimg" src="Codigos/Image-HTML/AncoragemDow.png" alt="Exemplo de ancoragem download">
+                    </picture>
+                </li></ul>
+                <h2>Imagens Flexíveis: </h2>
+                <ul><li><p>Adaptar conteúdo ao tamanho da sua tela e fazer o navegador carregar a imagem certa para cada situação. Com isso, devemos conhecer as tags picture + Enter e source + Enter. </p>
+                    <picture>
+                        <img class="formatimg" src="Codigos/Image-HTML/Imagemflex.png" alt="Flex">
+                    </picture>
+                </li></ul>
+                <h2>Adicionar vídeos: </h2>
+                <ul><li>
+                    <p>Para inserir um vídeo em nosso site, podemos utilizar a tag video + Enter, caso o arquivo esteja hospedado no próprio servidor.</p>
+                    <picture>
+                        <img class="formatimg" src="Codigos/Image-HTML/ADDvideo.png" alt="">
+                    </picture></li>
+                    <li> <p>Formatos de compatibilidade com os navegadores:</p>
+                        <img class="formatimg" src="Codigos/Image-HTML/formatosvideo.png" alt="Formatos">
+                    </li>
+                </ul>
+                <h2>O que é CSS? </h2>
+                <p>&nbsp; CSS (Cascading Style Sheets) é uma linguagem de criação de estilos, que quando combinados determinam qual será a aparência de uma página web. Enquanto o HTML cuida da estrutura contida em uma página, é o CSS quem diz ao navegador com o que cada parte da página deve se parecer.</p>
+                <h2>Primeiro passo para ligar o css ao html:</h2>
+                <ul><li><p>
+                    Utilizamos a tag link:css + Enter para trabalhar com arquivos externos de estilo. Essa tag deve ser colocada dentro da área head.
+                </p>
+                    <picture>
+                        <img class="formatimg" src="Codigos/Image-HTML/Junc+html.png" alt="Linkando">
+                    </picture>
+                </li></ul>
+                <h2>Aplicando cores: </h2>
+                <ul>
+                    <li>color + Enter: Aplica a cor nas palavras;</li>
+                    <li>background-color + Enter: Cor da página, ou usar em algum modelo caixa;</li>
+                </ul>
+                <h2>Fontes: </h2>
+                <ul>
+                    <li>font-size + Enter: O tamanho padrão da fonte geralmente é 16px, equivalente a 1em. Podemos configurar usando os dois tipos de tamanho, "em" sendo 2 vezes maior que a fonte padrão; </li>
+                    <li>font-family + Enter: Aplicar fonte desejada;</li>
+                    <li>font-style + Enter: Aplicar itálico;</li>
+                    <li>font-weight + Enter: Aplicar negrito;</li>
+                    <li>text-align + Enter: Alinhamento de texto;</li>
+                </ul>
+                <h2>Modelo caixa:</h2>
+                <ul>
+                    <li>Header + Enter: Cria áreas relativas a cabeçalhos. Pode ser o cabeçalho principal de um site ou até mesmo o cabeçalho de uma seção ou artigo. Normalmente inclui títulos h1 - h6 e subtítulos. Podem também conter menus de navegação.</li>
+                    <li>Nav + Enter: Define uma área que possui os links de navegação pel estrutura de páginas que vão compor o website. Um nav pode estar dentro de um header.</li>
+                    <li>Main + Enter: É um agrupador usado para delimitar o conteúdo principal do nosso site. Normalmente concentra asseções, artigos e conteúdos periféricos.</li>
+                    <li>Section + Enter: Cria seções para sua página. Ela pode conter o conteúdo diretamente no seu corpo ou dividir os conteúdos em artigos com conteúdos específicos. Segundo a documentação oficial da W3C, “uma seção é um agrupamento temático de conteúdos, tipicamente com um cabeçalho”.</li>
+                    <li>Article: Um artigo é um elemento que vai conter um conteúdo que pode ser lido de forma independente e dizem respeito a um mesmo assunto. Podemos usar um articlepara delimitar um post de blog ou fórum, uma notícia, etc.</li>
+                </ul>
+                <br>
+                <footer>
+                    <center>
+                        <a href="https://www.instagram.com/emanuel.bacalhau/">
+                            <img src="Codigos/Image-HTML/instagram.png" alt="instagram" width="40px">
+                        </a>
+                        <a href="https://github.com/EmanuelBacalhau">
+                            <img src="Codigos/Image-HTML/github.png" alt="github" width="40px" >
+                        </a>
+                    </center>
+                </footer>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
+
+
+
